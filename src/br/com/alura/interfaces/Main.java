@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ConversorDolar convercao1 = new ConversorDolar();
-        System.out.print("Digite o valor em dolar que gostaria de converter: ");
+        System.out.print("Digite o valor em dolar: ");
         convercao1.setDolar(sc.nextDouble());
         System.out.printf("Valor convertido para Real: %.2f ", convercao1.converterMoeda());
 
